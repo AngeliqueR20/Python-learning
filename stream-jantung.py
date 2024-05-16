@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-jantung_model = pickle.load(open('stream-jantung.py', 'rb'))
+jantung_model = pickle.load(open('heart.csv', 'rb'))
 
 st.title('Data Mining Prediksi Jantung')
 
