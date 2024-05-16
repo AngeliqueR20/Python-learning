@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-jantung_model = pickle.load(open(r'C:\Users\USER\jantung\jantung-model.sav', 'rb'))
+jantung_model = pickle.load(open('jantung-model.sav', 'rb'))
 
 st.title('Data Mining Prediksi Jantung')
 
