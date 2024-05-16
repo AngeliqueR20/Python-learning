@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-jantung_model = pickle.load(open('jantung_model.sav', 'wb'))
+jantung_model = pickle.load(open('jantung_model.sav', 'rb'))
 
 st.title('Data Mining Prediksi Jantung')
 
@@ -17,4 +17,4 @@ ExerciseAngina = st.text_input ('input nilai ExerciseAngina')
 Oldpeak = st.text_input ('input nilai Oldpeak')
 ST_Slope = st.text_input ('input nilai ST_Slope')
 
-jantung_model = pickle.load(open('jantung_model.sav', 'wb'))
+jantung_model = pickle.load(open('jantung_model.sav', 'rb'))
