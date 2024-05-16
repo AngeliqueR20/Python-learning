@@ -1,5 +1,5 @@
-import pickle
 import streamlit as st
+import pickle
 
 st.title('Data Mining Prediksi Jantung')
 jantung_model = pickle.load(open('jantung_model.sav', 'rb'))
