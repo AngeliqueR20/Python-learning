@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 with open('jantung_model.sav', 'rb') as file:
-    jantung_model = pickle.load(file)
+    jantung_model = pickle.dump(file)
 
 st.title('Data Mining Prediksi Jantung')
 
