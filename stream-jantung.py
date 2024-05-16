@@ -17,4 +17,4 @@ ExerciseAngina = st.text_input ('input nilai ExerciseAngina')
 Oldpeak = st.text_input ('input nilai Oldpeak')
 ST_Slope = st.text_input ('input nilai ST_Slope')
 
-jantung_model = pickle.load(open('jantung_model.sav', 'rb'))
+jantung_model = pickle.load(open(file_path, 'rb'))
