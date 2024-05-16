@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-jantung_model = pickle.dump(open('jantung-model.sav', 'rb'))
+jantung_model = pickle.load(open('jantung-model.sav', 'rb'))
 st.title('Data Mining Prediksi Jantung')
 
 Age = st.text_input('input nilai Age')
